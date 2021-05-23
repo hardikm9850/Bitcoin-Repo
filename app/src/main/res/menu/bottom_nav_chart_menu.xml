@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MenuTitle">
+
+    <item
+        android:id="@+id/btm_nav_item_total_bitcoin"
+        android:icon="@drawable/ic_total_bitcoin"
+        android:title="@string/total_bitcoins" />
+
+    <item
+        android:id="@+id/btm_nav_item_market_price"
+        android:icon="@drawable/ic_market_price"
+        android:title="@string/market_price" />
+
+    <item
+        android:id="@+id/btm_nav_item_block_size"
+        android:icon="@drawable/ic_block_size"
+        android:title="@string/block_size" />
+
+</menu>

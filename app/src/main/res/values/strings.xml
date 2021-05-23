@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Blockchain Chart</string>
+    <string name="total_bitcoins">Total Bitcoins</string>
+    <string name="market_price">Market price</string>
+    <string name="block_size">Block size</string>
+    <string name="warning_no_internet">Please connect to internet and try again</string>
+    <string name="btn_retry">Retry</string>
 </resources>

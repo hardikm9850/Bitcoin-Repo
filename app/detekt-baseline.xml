@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>CommentSpacing:com.bitcoin.chart.util.extension.Chart+Ext.kt:43</ID>
+    <ID>CommentSpacing:com.bitcoin.chart.util.extension.Chart+Ext.kt:44</ID>
+    <ID>Filename:com.bitcoin.chart.network.interceptor.NoConnecitivityInterceptor.kt:1</ID>
+    <ID>Filename:com.bitcoin.chart.ui.common.Contract.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.BitcoinApp.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.domain.common.BaseChartUseCase.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.domain.common.BaseMapper.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.domain.common.BaseUseCase.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.domain.exception.NoConnectivityException.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.domain.feature.bitcoin.mapper.BitcoinDataMapper.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.domain.feature.bitcoin.model.BitcoinViewEntity.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.domain.feature.bitcoin.usecase.FetchBlockSizeUseCase.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.domain.feature.bitcoin.usecase.FetchMarketPriceUseCase.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.domain.feature.bitcoin.usecase.FetchTotalBitcoinsUseCase.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.injection.AppCoreModule.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.injection.NetworkModule.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.network.beans.BitcoinRaw.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.network.interceptor.NoConnecitivityInterceptor.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.network.service.BitcoinService.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.ui.chart.ChartActivity.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.ui.chart.ChartViewModel.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.ui.common.UIController.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.util.constants.ChartHelper.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.util.constants.ChartNames.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.util.extension.Chart+Ext.kt:1</ID>
+    <ID>FinalNewline:com.bitcoin.chart.util.extension.ConnectivityManager+Ext.kt:1</ID>
+    <ID>FinalNewline:com.blockchain.chart.ExampleUnitTest.kt:1</ID>
+    <ID>LongParameterList:BitcoinDataMapper.kt$BitcoinDataMapper$( checkedParamsMap: MutableMap&lt;String, Any&gt;, missingParamsList: MutableList&lt;String&gt;, name: String?, unit: String?, period: String?, description: String? )</ID>
+    <ID>MagicNumber:BitcoinDataMapper.kt$BitcoinDataMapper$3</ID>
+    <ID>MagicNumber:BitcoinDataMapper.kt$BitcoinDataMapper$4</ID>
+    <ID>MagicNumber:Long+Ext.kt$1000</ID>
+    <ID>MatchingDeclarationName:Contract.kt$BitcoinChartType</ID>
+    <ID>MatchingDeclarationName:NoConnecitivityInterceptor.kt$NoConnectivityInterceptor : Interceptor</ID>
+    <ID>NewLineAtEndOfFile:AppCoreModule.kt$com.bitcoin.chart.injection.AppCoreModule.kt</ID>
+    <ID>NewLineAtEndOfFile:BaseChartUseCase.kt$com.bitcoin.chart.domain.common.BaseChartUseCase.kt</ID>
+    <ID>NewLineAtEndOfFile:BaseMapper.kt$com.bitcoin.chart.domain.common.BaseMapper.kt</ID>
+    <ID>NewLineAtEndOfFile:BaseUseCase.kt$com.bitcoin.chart.domain.common.BaseUseCase.kt</ID>
+    <ID>NewLineAtEndOfFile:BitcoinApp.kt$com.bitcoin.chart.BitcoinApp.kt</ID>
+    <ID>NewLineAtEndOfFile:BitcoinDataMapper.kt$com.bitcoin.chart.domain.feature.bitcoin.mapper.BitcoinDataMapper.kt</ID>
+    <ID>NewLineAtEndOfFile:BitcoinRaw.kt$com.bitcoin.chart.network.beans.BitcoinRaw.kt</ID>
+    <ID>NewLineAtEndOfFile:BitcoinService.kt$com.bitcoin.chart.network.service.BitcoinService.kt</ID>
+    <ID>NewLineAtEndOfFile:BitcoinViewEntity.kt$com.bitcoin.chart.domain.feature.bitcoin.model.BitcoinViewEntity.kt</ID>
+    <ID>NewLineAtEndOfFile:Chart+Ext.kt$com.bitcoin.chart.util.extension.Chart+Ext.kt</ID>
+    <ID>NewLineAtEndOfFile:ChartActivity.kt$com.bitcoin.chart.ui.chart.ChartActivity.kt</ID>
+    <ID>NewLineAtEndOfFile:ChartHelper.kt$com.bitcoin.chart.util.constants.ChartHelper.kt</ID>
+    <ID>NewLineAtEndOfFile:ChartNames.kt$com.bitcoin.chart.util.constants.ChartNames.kt</ID>
+    <ID>NewLineAtEndOfFile:ChartViewModel.kt$com.bitcoin.chart.ui.chart.ChartViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:ConnectivityManager+Ext.kt$com.bitcoin.chart.util.extension.ConnectivityManager+Ext.kt</ID>
+    <ID>NewLineAtEndOfFile:ExampleUnitTest.kt$com.blockchain.chart.ExampleUnitTest.kt</ID>
+    <ID>NewLineAtEndOfFile:FetchBlockSizeUseCase.kt$com.bitcoin.chart.domain.feature.bitcoin.usecase.FetchBlockSizeUseCase.kt</ID>
+    <ID>NewLineAtEndOfFile:FetchMarketPriceUseCase.kt$com.bitcoin.chart.domain.feature.bitcoin.usecase.FetchMarketPriceUseCase.kt</ID>
+    <ID>NewLineAtEndOfFile:FetchTotalBitcoinsUseCase.kt$com.bitcoin.chart.domain.feature.bitcoin.usecase.FetchTotalBitcoinsUseCase.kt</ID>
+    <ID>NewLineAtEndOfFile:NetworkModule.kt$com.bitcoin.chart.injection.NetworkModule.kt</ID>
+    <ID>NewLineAtEndOfFile:NoConnecitivityInterceptor.kt$com.bitcoin.chart.network.interceptor.NoConnecitivityInterceptor.kt</ID>
+    <ID>NewLineAtEndOfFile:NoConnectivityException.kt$com.bitcoin.chart.domain.exception.NoConnectivityException.kt</ID>
+    <ID>NewLineAtEndOfFile:UIController.kt$com.bitcoin.chart.ui.common.UIController.kt</ID>
+    <ID>NoBlankLineBeforeRbrace:com.bitcoin.chart.injection.NetworkModule.kt:61</ID>
+    <ID>NoConsecutiveBlankLines:com.bitcoin.chart.domain.common.BaseChartUseCase.kt:5</ID>
+    <ID>NoConsecutiveBlankLines:com.bitcoin.chart.domain.common.customui.BitcoinLineChartMarkerView.kt:17</ID>
+    <ID>NoConsecutiveBlankLines:com.bitcoin.chart.domain.exception.EssentialParamMissingException.kt:3</ID>
+    <ID>NoConsecutiveBlankLines:com.bitcoin.chart.domain.feature.bitcoin.model.BitcoinData.kt:3</ID>
+    <ID>NoConsecutiveBlankLines:com.bitcoin.chart.injection.NetworkModule.kt:3</ID>
+    <ID>NoConsecutiveBlankLines:com.bitcoin.chart.network.interceptor.NoConnecitivityInterceptor.kt:3</ID>
+    <ID>NoConsecutiveBlankLines:com.bitcoin.chart.ui.common.Contract.kt:9</ID>
+    <ID>NoMultipleSpaces:com.bitcoin.chart.domain.feature.bitcoin.mapper.BitcoinDataMapper.kt:150</ID>
+    <ID>NoUnusedImports:com.bitcoin.chart.domain.feature.bitcoin.mapper.BitcoinDataMapper.kt:11</ID>
+    <ID>NoWildcardImports:com.bitcoin.chart.util.extension.Long+Ext.kt:9</ID>
+    <ID>NoWildcardImports:com.blockchain.chart.ExampleUnitTest.kt:5</ID>
+    <ID>ReturnCount:ConnectivityManager+Ext.kt$fun ConnectivityManager.isConnected(): Boolean</ID>
+    <ID>SpacingAroundComma:com.bitcoin.chart.domain.common.BaseUseCase.kt:9</ID>
+    <ID>SwallowedException:Long+Ext.kt$catch (e: Exception) { val calendar = Calendar.getInstance() calendar.time = date val month = calendar.get(Calendar.MONTH) val monthName = DateFormatSymbols(englishLocale).shortMonths[month] val dayOfMonth = calendar.get(Calendar.DAY_OF_MONTH) "$dayOfMonth. $monthName" // Default format, in case there is an issue applying the pattern. }</ID>
+    <ID>TooGenericExceptionCaught:Long+Ext.kt$e: Exception</ID>
+    <ID>UnnecessaryAbstractClass:BaseMapper.kt$BaseMapper&lt;Input, Output&gt;</ID>
+    <ID>UnusedPrivateMember:ChartViewModel.kt$ChartViewModel$private fun hideWarnings()</ID>
+  </CurrentIssues>
+</SmellBaseline>

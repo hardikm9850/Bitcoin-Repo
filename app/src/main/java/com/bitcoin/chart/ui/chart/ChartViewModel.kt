@@ -1,5 +1,6 @@
 package com.bitcoin.chart.ui.chart
 
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -29,7 +30,7 @@ class ChartViewModel @Inject constructor(
     private val fetchTotalBitcoinsUseCase: FetchTotalBitcoinsUseCase,
     private val fetchMarketPriceUseCase: FetchMarketPriceUseCase,
     private val fetchBlockSizeUseCase: FetchBlockSizeUseCase,
-    private val bitcoinDataMapper: BitcoinDataMapper
+    private val bitcoinDataMapper: BitcoinDataMapper,
 ) : ViewModel(), CoroutineScope, UIController {
 
     override val coroutineContext: CoroutineContext
@@ -48,7 +49,8 @@ class ChartViewModel @Inject constructor(
         val chartName = getChartNameFromChartType(chartType)
         chartUseCase.build(
             BaseChartUseCase.Params(chartName, CHART_DEFAULT_TIME_SPAN, null)
-        ).doToggleLoadingStateOf(this)
+        )
+            //.doToggleLoadingStateOf(this)
             .map {
                 bitcoinDataMapper.convert(it)
             }

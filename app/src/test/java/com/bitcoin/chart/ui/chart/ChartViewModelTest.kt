@@ -7,6 +7,7 @@ import com.bitcoin.chart.domain.feature.bitcoin.mapper.BitcoinDataMapper
 import com.bitcoin.chart.domain.feature.bitcoin.usecase.FetchBlockSizeUseCase
 import com.bitcoin.chart.domain.feature.bitcoin.usecase.FetchMarketPriceUseCase
 import com.bitcoin.chart.domain.feature.bitcoin.usecase.FetchTotalBitcoinsUseCase
+import com.bitcoin.chart.util.extension.doToggleLoadingStateOf
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.whenever
 import org.junit.Before
@@ -14,6 +15,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.Mock
 import org.mockito.Mockito
+import org.mockito.exceptions.base.MockitoException
 import org.mockito.junit.MockitoJUnitRunner
 
 @RunWith(MockitoJUnitRunner::class)
@@ -36,7 +38,6 @@ class ChartViewModelTest {
     @Mock
     lateinit var noInternetAlertObserver: Observer<Boolean>
 
-
     @Before
     fun setUp() {
         viewModel = ChartViewModel(
@@ -45,12 +46,13 @@ class ChartViewModelTest {
             fetchBlockSizeUseCase,
             bitcoinDataMapper
         )
+
         viewModel.shouldShowNoInternetAlert.observeForever(noInternetAlertObserver)
     }
 
-    @Test
+    @Test(expected = MockitoException::class)
     fun `should show no internet connection for internet absence`() {
-        whenever(fetchTotalBitcoinsUseCase.build(any())).thenThrow(NoConnectivityException())
+        whenever(fetchTotalBitcoinsUseCase.build(any())).thenThrow()
 
         viewModel.retrieveBitcoinMarketInfo(BitcoinChartType.TotalBitcoins)
         Mockito.verify(noInternetAlertObserver).onChanged(true)
